@@ -156,7 +156,7 @@ public:
 			this->pret = this->pret - this->pret * discount / 100;
 		}
 	}
-
+	static int Locuri_Non_VIP() { return nr_total_bilete - bilete_vip; }
 	void Schimb_zona_si_locul(char zona,int rand, int scaun)
 	{
 		if (this->zona == 'D' && (zona == 'A' || zona == 'B' || zona == 'C'))

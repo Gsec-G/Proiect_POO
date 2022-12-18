@@ -162,5 +162,3 @@ public:
 		return capacitate_maxima_spectatori;
 	}
 };
-
-

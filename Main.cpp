@@ -10,6 +10,8 @@ int Bilet::bilete_vip = 0;
 
 // clasa Bilet (  - zonele = 'A' , 'B', 'C', 'D' , cea din urma fiind cea VIP
 //                - admite un maxim de 10 randuri si 30 de scaune
+// clasa Locatie ( - nr locuri VIP < capacitate maxima )
+
 int main()
 {
 	Bilet a('D', 5, 4);
@@ -19,8 +21,8 @@ int main()
 	//cout << a.getVip() << ' ' << a.getId_bilet()<<endl;
 	//cout << c.getPret() << endl << b.getPret();
 	Bilet d = a - c;
-	cout << d;
-	Locatie l1("Ministerul Jocurilor de Noroc", "Str.Garantarii nr.1",1500,50,2000,0);
+	cout << d << a << b << a;
+	Locatie l1("Ministerul Apararii", "Str.Garantarii nr.1",1500,50,2000,0);
 	Locatie l2;
 	//cout << l1 << l2 << l1.operator!();
 	//cin >> l2;
